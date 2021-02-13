@@ -34,20 +34,20 @@ function formList() {
         
 
 	if(all>=80){
-			newItem.appendChild(document.createTextNode("You Got Grade A"));
+			newItem.appendChild(document.createTextNode(" Grade A"));
 		}
 		else if(all>=70){
-			newItem.appendChild(document.createTextNode("You Got Grade B"));		
+			newItem.appendChild(document.createTextNode(" Grade B"));		
 		}
 		else if(all>=60){
-			newItem.appendChild(document.createTextNode("You Got Grade C"));
+			newItem.appendChild(document.createTextNode(" Grade C"));
 		}
 		else if(all>=50){
-			newItem.appendChild(document.createTextNode("You Got Grade D"));
+			newItem.appendChild(document.createTextNode(" Grade D"));
 
 		}
 		else if(all<=49){
-			newItem.appendChild(document.createTextNode("You Got Grade F"));
+			newItem.appendChild(document.createTextNode(" Grade F"));
 		}
 
 
